@@ -21,6 +21,6 @@
     "test": "mocha"
   },
   "bin": {
-    "bin": "./bin/dist.js"
+    "dist": "./bin/dist.js"
   }
 }
