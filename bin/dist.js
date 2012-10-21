@@ -53,6 +53,7 @@ if (argv.input) {
   dist({
     input: argv.input,
     out: argv.output,
+    copyright: argv.copyright,
     complete: complete
   });
 } else {
@@ -61,6 +62,7 @@ if (argv.input) {
       source: str,
       filename: argv.filename,
       out: argv.output,
+      copyright: argv.copyright,
       complete: complete
     });
 
