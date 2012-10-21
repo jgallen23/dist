@@ -1,0 +1,26 @@
+{
+  "name": "dist",
+  "description": "a cli tool and library to create development and production versions for the browser",
+  "homepage": "https://github.com/jgallen23/dist",
+  "author": "Greg Allen <@jgaui> (http://jga.me)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgallen23/dist.git"
+  },
+  "dependencies": {
+    "uglify-js": "~1.3.4",
+    "filesize": "~1.6.6",
+    "optimist": "~0.3.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "./lib/dist.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "bin": "./bin/dist.js"
+  }
+}
