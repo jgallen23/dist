@@ -3,7 +3,7 @@
   "description": "a cli tool and library to create development and production versions for the browser",
   "homepage": "https://github.com/jgallen23/dist",
   "author": "Greg Allen <@jgaui> (http://jga.me)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/jgallen23/dist.git"
